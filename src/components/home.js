@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FiTruck } from "react-icons/fi";
@@ -100,6 +100,11 @@ const Home = () => {
               <p>24/7 customer support care</p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="footer-wrapper">
+          <div className="box"></div>
         </div>
       </div>
     </>

@@ -7,7 +7,7 @@
 /*  Navbar**************/
 .top-banner {
   max-width: 100%;
-  padding: 40px 100px;
+  padding: 0 100px;
   background-color: #e3edf6;
 }
 
@@ -51,7 +51,7 @@
   justify-content: space-between;
 }
 .image-box-3 img {
-  width: 300px;
+  width: 500px;
 }
 .container .box {
   padding: 20px 30px;
@@ -105,7 +105,25 @@
   justify-content: space-between;
 }
 .container-wrapper .box-1 {
-  padding: 20px 30px;
+  padding: 40px 123px;
+  border-radius: 10px;
   display: flex;
   background-color: #dcf2f7;
+  display: flex;
+  align-items: center;
+  gap: 17px;
 }
+.box-1 .icon {
+  font-size: 25px;
+  margin-top: 10px;
+  color: #ff8d56;
+  transition: 0.6;
+}
+.box-1 .icon:hover {
+  transform: scale(1.2);
+}
+.box-1 .details:hover {
+  filter: blur(0.5px);
+  cursor: pointer;
+}
+/*product ****** */

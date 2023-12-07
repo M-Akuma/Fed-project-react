@@ -62,7 +62,7 @@ const Nav = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/home" className="link">
+                <Link to="/about" className="link">
                   About
                 </Link>
               </li>
@@ -86,5 +86,4 @@ const Nav = () => {
     </>
   );
 };
-
 export default Nav;
