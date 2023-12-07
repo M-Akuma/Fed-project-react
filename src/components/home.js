@@ -102,9 +102,28 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer-wrapper">
-          <div className="box"></div>
+
+      <div className="banner">
+        <div className="banner-container">
+          <div className="banner-details">
+            <h4>Latest Technology</h4>
+            <h3>Ipad Pro 2nd Gen M2 chip -2021 </h3>
+            <p>
+              <FaDollarSign /> 1999
+            </p>
+            <Link to="/product" className="btn-1">
+              Shop Now <FaArrowRightLong />
+            </Link>
+          </div>
+          <div className="image-box-banner">
+            <img src="./images/slider3.png" />
+          </div>
+        </div>
+
+        <div className="footer">
+          <div className="footer-wrapper">
+            <div className="box"></div>
+          </div>
         </div>
       </div>
     </>

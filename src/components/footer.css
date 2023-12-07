@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 160px;
+}
+.footer-logo img {
+  width: 140px;
+}
+.footer li:hover {
+  filter: blur(0px);
+}
+.footer-details li {
+  /* filter: blur(1px); */
+  color: #000;
+}
+.footer-details p {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.footer-details,
+.account,
+.pages ul {
+  line-height: 25px;
+}
+li {
+  list-style: none;
+}
