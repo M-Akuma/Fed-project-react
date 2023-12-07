@@ -4,10 +4,10 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+/*  Navbar**************/
 .top-banner {
-  padding: 30px 40px;
   max-width: 100%;
-  padding: 0 100px;
+  padding: 40px 100px;
   background-color: #e3edf6;
 }
 
@@ -17,7 +17,7 @@
   display: flex;
 }
 .details {
-  margin-top: 10%;
+  margin-top: 6%;
 }
 .details h2 {
   font-size: 62px;
@@ -39,4 +39,73 @@
   background-color: #010f1c;
   color: #fff;
   border-radius: 5px;
+}
+/* products ************/
+.products {
+  width: 100%;
+  padding: 30px 40px;
+}
+.products .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.image-box-3 img {
+  width: 300px;
+}
+.container .box {
+  padding: 20px 30px;
+  margin-left: 20px;
+}
+.container .box .image-box,
+.image-box-1 {
+  height: 300px;
+  overflow: hidden;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #e8f4ff;
+}
+.image-box img:hover {
+  transform: scale(1.1);
+}
+.image-box-1 img:hover {
+  transform: scale(1.1);
+}
+.image-box img {
+  width: 180px;
+  margin: 58px 46px;
+  transition: 0.6s;
+}
+.image-box-1 img {
+  width: 130px;
+  margin: 48px 81px;
+  transition: 0.6s;
+}
+.detials {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.detials p {
+  margin-top: 10px;
+  filter: grayscale(100px);
+}
+.detials p:hover {
+  color: #9a9a9a;
+  cursor: pointer;
+}
+/* about ************/
+.about {
+  padding: 20px 30px;
+  width: 100%;
+}
+.about .container-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container-wrapper .box-1 {
+  padding: 20px 30px;
+  display: flex;
+  background-color: #dcf2f7;
 }
