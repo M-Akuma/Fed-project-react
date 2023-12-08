@@ -24,7 +24,7 @@
   font-weight: 600;
   color: #010f1c;
   margin-right: 40%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .btn {
   text-decoration: none;
@@ -161,6 +161,13 @@
   align-items: center;
   gap: 5px;
   margin-top: 10px;
+}
+.image-box-banner img {
+  transition: 0.7s;
+}
+.image-box-banner img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .btn-1 {
   text-decoration: none;

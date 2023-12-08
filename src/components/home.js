@@ -119,12 +119,6 @@ const Home = () => {
             <img src="./images/slider3.png" />
           </div>
         </div>
-
-        <div className="footer">
-          <div className="footer-wrapper">
-            <div className="box"></div>
-          </div>
-        </div>
       </div>
     </>
   );

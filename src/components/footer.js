@@ -4,6 +4,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import "./footer.css";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhone } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
   return (
@@ -56,9 +59,22 @@ const Footer = () => {
           <div className="location-container">
             <div className="location-icons">
               <h3>Location</h3>
-              <p>Maharajgunj,ktm</p>
-              <p>+977 9745959622</p>
-              <p>@infotech.appleproducts.com.np</p>
+              <address>
+                <FaLocationDot />
+                Maharajgunj,ktm
+              </address>
+              <p>
+                <FaPhone />
+                +977 9745959622
+              </p>
+              <p>
+                <HiOutlineMail />
+                @infotech.appleproducts.com.np
+              </p>
+              <p>
+                We are avialable at your service 24 hours and 7 days at your
+                service.
+              </p>
             </div>
           </div>
         </div>

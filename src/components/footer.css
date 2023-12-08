@@ -16,10 +16,7 @@
 .footer li:hover {
   filter: blur(0px);
 }
-.footer-details li {
-  /* filter: blur(1px); */
-  color: #000;
-}
+
 .footer-details p {
   font-size: 17px;
   margin-bottom: 15px;
@@ -29,6 +26,24 @@
 .pages ul {
   line-height: 25px;
 }
+.footer li:hover {
+  color: #a9a9a9;
+  cursor: pointer;
+}
 li {
   list-style: none;
+}
+.footer .location {
+  display: flex;
+  align-items: center;
+  line-height: 25px;
+}
+
+.location-icons {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 5px;
+}
+.location-icons p {
+  max-width: 300px;
 }
