@@ -30,3 +30,19 @@
 // ];
 
 // export default Homeproduct;
+
+import React from "react";
+
+const Homeproduct = () => {
+  return (
+    <>
+      <div className="products">
+        <div className="product-container">
+          <div className="image-box"></div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Homeproduct;
