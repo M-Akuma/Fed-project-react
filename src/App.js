@@ -11,6 +11,7 @@ const App = () => {
       <BrowserRouter>
         <Nav />
         <Rout />
+
         <Footer />
       </BrowserRouter>
     </div>
