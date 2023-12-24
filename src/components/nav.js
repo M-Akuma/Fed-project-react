@@ -10,7 +10,7 @@ import { LuLogOut } from "react-icons/lu";
 import { MdOutlineLogin } from "react-icons/md";
 
 const Nav = () => {
-  const { loginWithRedirect } = useAuth0();
+  const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0();
   return (
     <>
       <div>
@@ -76,12 +76,19 @@ const Nav = () => {
             </ul>
           </div>
           <div className="auth">
-            <button onClick={() => loginWithRedirect()}>
-              <LuLogOut />
-            </button>
-            <button>
-              <MdOutlineLogin />
-            </button>
+            {isAuthenticated ? (
+              <button
+                onClick={() =>
+                  logout({ logoutParams: { returnTo: window.location.origin } })
+                }
+              >
+                <MdOutlineLogin />
+              </button>
+            ) : (
+              <button onClick={() => loginWithRedirect()}>
+                <LuLogOut />
+              </button>
+            )}
           </div>
         </div>
       </div>
