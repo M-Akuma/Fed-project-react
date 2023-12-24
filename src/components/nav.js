@@ -3,12 +3,14 @@ import { FaDove, FaTruck } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 import { IoBagCheckSharp } from "react-icons/io5";
 import { LuLogIn, LuUser2 } from "react-icons/lu";
+import { useAuth0 } from "@auth0/auth0-react";
 import "./nav.css";
 import { Link } from "react-router-dom";
 import { LuLogOut } from "react-icons/lu";
 import { MdOutlineLogin } from "react-icons/md";
 
 const Nav = () => {
+  const { loginWithRedirect } = useAuth0();
   return (
     <>
       <div>
@@ -74,7 +76,7 @@ const Nav = () => {
             </ul>
           </div>
           <div className="auth">
-            <button>
+            <button onClick={() => loginWithRedirect()}>
               <LuLogOut />
             </button>
             <button>
