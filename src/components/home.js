@@ -6,8 +6,13 @@ import "./home.css";
 import { FaDollarSign } from "react-icons/fa6";
 import { FaPercent } from "react-icons/fa";
 import { FaHeadphones } from "react-icons/fa";
+import Homeproduct from "./homeproduct";
+import { FaShoppingCart } from "react-icons/fa";
+import { HiOutlineEye } from "react-icons/hi";
+import { FaHeart } from "react-icons/fa";
 
 const Home = () => {
+  const [homeProduct, setHomeProduct] = useState(Homeproduct);
   return (
     <>
       <div className="top-banner">
@@ -102,7 +107,41 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* products */}
+      <div>
+        <div className="product">
+          <h2> Our Products</h2>
+          <div className="product-container">
+            {homeProduct.map((curElm) => (
+              <div className="box" key={curElm.id}>
+                <div className="img-box">
+                  <img src={curElm.Img} alt={curElm.Title} />
+                  <div className="product-icons">
+                    <li>
+                      <FaShoppingCart />
+                    </li>
+                    <li>
+                      <HiOutlineEye />
+                    </li>
+                    <li>
+                      <FaHeart />
+                    </li>
+                  </div>
+                  <div className="detail">
+                    <p>{curElm.Cat}</p>
+                    <h3>{curElm.Title}</h3>
+                    <p>{curElm.Price}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
 
+        <div className="box"></div>
+      </div>
+
+      {/* banner */}
       <div className="banner">
         <div className="banner-container">
           <div className="banner-details">

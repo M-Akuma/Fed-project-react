@@ -71,10 +71,7 @@ const Footer = () => {
                 <HiOutlineMail />
                 @infotech.appleproducts.com.np
               </p>
-              <p>
-                We are avialable at your service 24 hours and 7 days at your
-                service.
-              </p>
+              <p>We are available, 24 hours and 7 days at your service.</p>
             </div>
           </div>
         </div>
