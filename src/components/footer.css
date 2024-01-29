@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 160px;
+  padding: 15px 140px;
 }
 .footer-logo img {
   width: 140px;
@@ -26,9 +26,11 @@
 .pages ul {
   line-height: 25px;
 }
-.footer li:hover {
-  color: #a9a9a9;
+.footer:hover {
   cursor: pointer;
+}
+.footer ul li:hover {
+  color: #9a9a9a;
 }
 li {
   list-style: none;
@@ -36,7 +38,8 @@ li {
 .footer .location {
   display: flex;
   align-items: center;
-  line-height: 25px;
+  line-height: 29px;
+  margin-top: 49px;
 }
 
 .location-icons {
@@ -46,4 +49,10 @@ li {
 }
 .location-icons p {
   max-width: 300px;
+}
+.footer .icons li:hover {
+  color: #ff8d56;
+}
+.location-icons {
+  margin: 20px;
 }

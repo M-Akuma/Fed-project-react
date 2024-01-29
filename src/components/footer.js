@@ -55,6 +55,15 @@ const Footer = () => {
             <li>Contact</li>
           </ul>
         </div>
+        <div className="pages">
+          <h3>Features</h3>
+          <ul>
+            <li>Intuitive</li>
+            <li>Secure</li>
+            <li>Catalogues</li>
+            <li>Supportive</li>
+          </ul>
+        </div>
         <div className="location">
           <div className="location-container">
             <div className="location-icons">

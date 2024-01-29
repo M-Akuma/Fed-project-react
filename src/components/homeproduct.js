@@ -86,6 +86,12 @@ const Homeproduct = [
     Price: "$2400",
     Img: "./images/product18.png",
   },
+  // {
+  //   id: 2,
+  //   Title: "The new brand of apple launching soon on nepal as well.",
+  //   Cat: "Phone",
+  //   Price: "$340 ",
+  // },
 ];
 
 export default Homeproduct;

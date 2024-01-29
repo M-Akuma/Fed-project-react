@@ -116,7 +116,7 @@ const Home = () => {
               <div className="box" key={curElm.id}>
                 <div className="img-box">
                   <img src={curElm.Img} alt={curElm.Title} />
-                  <div className="product-icons">
+                  {/* <div className="product-icons">
                     <li>
                       <FaShoppingCart />
                     </li>
@@ -126,7 +126,7 @@ const Home = () => {
                     <li>
                       <FaHeart />
                     </li>
-                  </div>
+                  </div> */}
                   <div className="detail">
                     <p>{curElm.Cat}</p>
                     <h3>{curElm.Title}</h3>
