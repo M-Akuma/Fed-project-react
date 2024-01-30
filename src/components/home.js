@@ -10,6 +10,10 @@ import Homeproduct from "./homeproduct";
 import { FaShoppingCart } from "react-icons/fa";
 import { HiOutlineEye } from "react-icons/hi";
 import { FaHeart } from "react-icons/fa";
+<script
+  src="https://kit.fontawesome.com/7bec99c418.js"
+  crossorigin="anonymous"
+></script>;
 
 const Home = () => {
   const [homeProduct, setHomeProduct] = useState(Homeproduct);
@@ -110,7 +114,10 @@ const Home = () => {
       {/* products */}
       <div>
         <div className="product">
-          <h2> Our Products</h2>
+          <div class="title-text">
+            <p>Products</p>
+            <h1>Top Sales</h1>
+          </div>
           <div className="product-container">
             {homeProduct.map((curElm) => (
               <div className="box" key={curElm.id}>
@@ -159,6 +166,82 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* <div className="testimonials">
+        <div className="container">
+          <h1>What Our Customers Says?</h1>
+          <div className="box">
+            <div className="box-upper"></div>
+            <div className="box-lower"></div>
+          </div>
+        </div>
+      </div> */}
+
+      <section id="testimonials">
+        <div class="title-text">
+          <p>Testimonials</p>
+          <h1>What clients says?</h1>
+        </div>
+        <div class="testimonial-row">
+          <div class="testimonial-column">
+            <div class="user">
+              <img src="./images/img-1.jpg" />
+              <div class="user-info">
+                <h4>
+                  Jhonn cena <i class="fab fa-twitter"></i>
+                </h4>
+                <span>@JhonnCena</span>
+              </div>
+            </div>
+
+            <p>
+              Lorem ipsum is the main problem in the main program in our country
+              as the name of tthe aspect. Lorem ipsum is the main problem in the
+              main program in our country as the name of tthe aspect. Lorem
+              ipsum is the main problem in the main program in our country as
+              the name of tthe aspect.
+            </p>
+          </div>
+
+          <div class="testimonial-column">
+            <div class="user">
+              <img src="./images/img-2.jpg" />
+              <div class="user-info">
+                <h4>
+                  {" "}
+                  Sasha Banks <i class="fab fa-twitter"></i>
+                </h4>
+                <span>@shasha</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum is the main problem in the main program in our country
+              as the name of tthe aspect. Lorem ipsum is the main problem in the
+              main program in our country as the name of tthe aspect. Lorem
+              ipsum is the main problem in the main program in our country as
+              the name of tthe aspect.
+            </p>
+          </div>
+
+          <div class="testimonial-column">
+            <div class="user">
+              <img src="./images/img-3.jpg" />
+              <div class="user-info">
+                <h4>
+                  Seth rollins <i class="fab fa-twitter"></i>
+                </h4>
+                <span>@sethrollins</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum is the main problem in the main program in our country
+              as the name of tthe aspect. Lorem ipsum is the main problem in the
+              main program in our country as the name of tthe aspect. Lorem
+              ipsum is the main problem in the main program in our country as
+              the name of tthe aspect.
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

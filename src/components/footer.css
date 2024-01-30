@@ -30,7 +30,7 @@
   cursor: pointer;
 }
 .footer ul li:hover {
-  color: #9a9a9a;
+  color: #7d7d7d;
 }
 li {
   list-style: none;
@@ -47,12 +47,21 @@ li {
   flex-direction: column;
   margin: 5px 5px;
 }
+.location-icons p:hover {
+  color: #7d7d7d;
+}
 .location-icons p {
   max-width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .footer .icons li:hover {
   color: #ff8d56;
 }
-.location-icons {
-  margin: 20px;
+.copyright-info {
+  font-size: 17px;
+  font-style: italic;
+  text-align: center;
+  padding: 20px 0;
 }

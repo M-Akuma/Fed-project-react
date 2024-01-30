@@ -68,10 +68,10 @@ const Footer = () => {
           <div className="location-container">
             <div className="location-icons">
               <h3>Location</h3>
-              <address>
+              <p>
                 <FaLocationDot />
                 Maharajgunj,ktm
-              </address>
+              </p>
               <p>
                 <FaPhone />
                 +977 9745959622
@@ -84,6 +84,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="copyright-info">
+        <p>@copyright, All reserved to the admin.</p>
       </div>
     </>
   );
