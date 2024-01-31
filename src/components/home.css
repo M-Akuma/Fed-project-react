@@ -37,6 +37,7 @@
   display: flex;
   align-items: center;
   width: 16%;
+  border-radius: 8px;
   gap: 9px;
 }
 
@@ -282,7 +283,12 @@
   gap: 8px;
   width: 19%;
 }
-
+.user-info h4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 0;
+}
 .btn-1:hover {
   background-color: #fff;
   color: #000;

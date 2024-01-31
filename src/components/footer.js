@@ -6,6 +6,7 @@ import { FaTwitter } from "react-icons/fa";
 import "./footer.css";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
+import { FaCopyright } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
@@ -86,7 +87,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright-info">
-        <p>@copyright, All reserved to the admin.</p>
+        <p>
+          <FaCopyright /> copyright, All reserved to the admin.
+        </p>
       </div>
     </>
   );

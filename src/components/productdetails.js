@@ -1,0 +1,171 @@
+const Productdetails = [
+  {
+    id: 1,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product1.png",
+  },
+  {
+    id: 2,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product2.png",
+  },
+  {
+    id: 3,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product3.png",
+  },
+  {
+    id: 4,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product4.png",
+  },
+  {
+    id: 5,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product7.png",
+  },
+
+  {
+    id: 6,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product8.png",
+  },
+
+  {
+    id: 7,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product9.png",
+  },
+
+  {
+    id: 8,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product10.png",
+  },
+  {
+    id: 9,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product15.png",
+  },
+  {
+    id: 10,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product16.png",
+  },
+  {
+    id: 11,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product17.png",
+  },
+  {
+    id: 12,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/product18.png",
+  },
+
+  // cameras
+  {
+    id: 19,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/60.png",
+  },
+  {
+    id: 20,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/61.png",
+  },
+  {
+    id: 21,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/62.png",
+  },
+  {
+    id: 22,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/63.png",
+  },
+  // laptops
+  {
+    id: 23,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/51.png",
+  },
+  {
+    id: 24,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/52.png",
+  },
+  {
+    id: 25,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/53.png",
+  },
+  // chairs
+  {
+    id: 26,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/43.png",
+  },
+  {
+    id: 27,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/42.png",
+  },
+  {
+    id: 28,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/41.png",
+  },
+  {
+    id: 29,
+    Title: "Ipad pro 2022 14inch M2 chip  256Gb.",
+    Cat: "Tablet",
+    Price: "$2400",
+    Img: "./images/40.png",
+  },
+];
+export default Productdetails;

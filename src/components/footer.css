@@ -33,7 +33,9 @@
   color: #7d7d7d;
 }
 li {
+  font-weight: 300;
   list-style: none;
+  font-size: 16px;
 }
 .footer .location {
   display: flex;
@@ -58,6 +60,12 @@ li {
 }
 .footer .icons li:hover {
   color: #ff8d56;
+}
+.copyright-info p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
 }
 .copyright-info {
   font-size: 17px;

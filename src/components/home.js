@@ -10,11 +10,8 @@ import Homeproduct from "./homeproduct";
 import { FaShoppingCart } from "react-icons/fa";
 import { HiOutlineEye } from "react-icons/hi";
 import { FaHeart } from "react-icons/fa";
-<script
-  src="https://kit.fontawesome.com/7bec99c418.js"
-  crossorigin="anonymous"
-></script>;
-
+import { FaTwitter } from "react-icons/fa6";
+import { FaCopyright } from "react-icons/fa6";
 const Home = () => {
   const [homeProduct, setHomeProduct] = useState(Homeproduct);
   return (
@@ -187,7 +184,7 @@ const Home = () => {
               <img src="./images/img-1.jpg" />
               <div class="user-info">
                 <h4>
-                  Jhonn cena <i class="fab fa-twitter"></i>
+                  <FaTwitter /> Jhonn Cena
                 </h4>
                 <span>@JhonnCena</span>
               </div>
@@ -207,8 +204,8 @@ const Home = () => {
               <img src="./images/img-2.jpg" />
               <div class="user-info">
                 <h4>
-                  {" "}
-                  Sasha Banks <i class="fab fa-twitter"></i>
+                  <FaTwitter />
+                  Sasha banks
                 </h4>
                 <span>@shasha</span>
               </div>
@@ -227,7 +224,7 @@ const Home = () => {
               <img src="./images/img-3.jpg" />
               <div class="user-info">
                 <h4>
-                  Seth rollins <i class="fab fa-twitter"></i>
+                  <FaTwitter /> Seth rollins
                 </h4>
                 <span>@sethrollins</span>
               </div>
