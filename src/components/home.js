@@ -239,6 +239,19 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <div className="brands">
+        <div class="title-text">
+          <p>Brands</p>
+          <h1>Our Sponsers</h1>
+        </div>
+        <div className="brands-row">
+          <img src="./images/brand-1.png" />
+          <img src="./images/brand-2.png" />
+          <img src="./images/brand-3.png" />
+          <img src="./images/brand-4.png" />
+          <img src="./images/brand-5.png" />
+        </div>
+      </div>
     </>
   );
 };

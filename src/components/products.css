@@ -21,10 +21,10 @@
   font-weight: 300;
   margin-top: 30px;
 }
+
 .products .container {
   display: flex;
   margin-top: 20px;
-  justify-content: space-between;
   max-width: 100%;
 }
 .categories h3 {
@@ -38,12 +38,38 @@
   font-size: 50px;
   font-family: roboto;
 }
+
+.container .box {
+  border: 1px solid #e2e0e0;
+  border-radius: 8px;
+}
 .products p {
   font-family: "Roboto";
   font-size: 20px;
   font-weight: 300;
   padding: 10px 0;
 }
-.products .container .filter {
-  width: 20%;
+
+.products .container .product-box {
+  margin-left: 9%;
+}
+.products .container .product-box .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+.products .container .product-box .content .box:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  cursor: pointer;
+}
+.products .container .product-box .content .box {
+  padding: 10px 20px;
+  overflow: hidden;
+  width: 280px;
+  height: 380px;
+  border: 1px solid #e2e0e0;
+  margin-top: 20px;
+  transition: 0.5s;
+  border-radius: 8px;
 }

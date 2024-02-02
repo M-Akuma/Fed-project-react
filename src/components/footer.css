@@ -19,7 +19,7 @@
 
 .footer-details p {
   font-size: 17px;
-  margin-bottom: 15px;
+  margin-bottom: 65px;
 }
 .footer-details,
 .account,
@@ -36,14 +36,16 @@ li {
   font-weight: 300;
   list-style: none;
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .footer .location {
   display: flex;
   align-items: center;
   line-height: 29px;
-  margin-top: 49px;
+  margin-top: 15px;
 }
-
 .location-icons {
   display: flex;
   flex-direction: column;
@@ -67,9 +69,19 @@ li {
   gap: 6px;
   justify-content: center;
 }
+.pages ul li {
+  display: flex;
+  line-height: 32px;
+}
 .copyright-info {
   font-size: 17px;
   font-style: italic;
   text-align: center;
   padding: 20px 0;
+}
+.footer .follow-up ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 25px;
 }

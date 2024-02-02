@@ -388,3 +388,22 @@
 .user span {
   color: #ff8d56;
 }
+/* brands */
+.brands {
+  width: 100%;
+  padding: 2% 20%;
+}
+.brands-row {
+  display: flex;
+  align-items: center;
+  gap: 140px;
+}
+.brands-row img {
+  width: 10%;
+  filter: grayscale(1);
+}
+
+.brands-row img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+}

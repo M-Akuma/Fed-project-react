@@ -8,6 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 import { FaCopyright } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -20,7 +21,7 @@ const Footer = () => {
             </div>
             <div className="footer-details">
               <p>We are a team that creates a creative products like deez.</p>
-              <div className="icons">
+              {/* <div className="icons">
                 <li>
                   <FaFacebookF />
                 </li>
@@ -33,7 +34,7 @@ const Footer = () => {
                 <li>
                   <FaTwitter />
                 </li>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -56,13 +57,29 @@ const Footer = () => {
             <li>Contact</li>
           </ul>
         </div>
-        <div className="pages">
-          <h3>Features</h3>
+        <div className="follow-up">
+          <h3>Follow us</h3>
           <ul>
-            <li>Intuitive</li>
-            <li>Secure</li>
-            <li>Catalogues</li>
-            <li>Supportive</li>
+            <li>
+              <FaFacebookF />
+              Facebook
+            </li>
+            <li>
+              <FaLinkedinIn />
+              Linked In
+            </li>
+            <li>
+              <FaTwitter />
+              Twitter
+            </li>
+            <li>
+              <FaTelegramPlane />
+              Telegram
+            </li>
+            <li>
+              <FaInstagram />
+              Instagram
+            </li>
           </ul>
         </div>
         <div className="location">

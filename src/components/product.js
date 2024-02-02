@@ -6,6 +6,10 @@ const Product = () => {
     <>
       <div className="products">
         <h2> # Products</h2>
+        <div class="title-text">
+          <p>Products</p>
+          <h1>All Products</h1>
+        </div>
         <p>Home . Products</p>
         <div className="container">
           <div className="filter">
@@ -23,7 +27,7 @@ const Product = () => {
             </div>
           </div>
           <div className="product-box">
-            <div className="container">
+            <div className="content">
               {Productdetails.map((curElm) => {
                 return (
                   <>
