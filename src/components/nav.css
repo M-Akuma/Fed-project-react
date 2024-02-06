@@ -99,6 +99,7 @@
   margin-left: 20px;
   display: inline-flex;
   font-size: 17px;
+  font-weight: 400;
 }
 .link {
   text-decoration: none;
